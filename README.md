@@ -49,3 +49,7 @@ The Quick Return Mechanism is widely used in:
 2.	Go to File → Open and select Quick_Return_Assembly.SLDASM
 3.	Ensure all .SLDPRT files are in the same directory or referenced correctly
 4.	Optionally, run Motion Study to see mechanism in action
+[Bale Pavan Kumar]
+ balepavankumar6@gmail.com
+ [www.linkedin.com/in/pavan-kumar-bale-b35401384]
+ [https://github.com/dashboard]
