@@ -1,19 +1,51 @@
-A Quick Return Mechanism is a mechanical system used to convert rotary motion into reciprocating motion, where the return stroke is faster than the forward stroke.
-This mechanism is commonly used in:
-•	Shaper machines
-•	Slotter machines
-•	Milling machines
-It improves productivity by reducing the time taken for the return stroke, which does not involve cutting.
-Working Principle
-The mechanism uses different angular velocities during the forward and return strokes. This is usually achieved using a crank and slotted lever mechanism, Whitworth mechanism, or hydraulic systems
-Real life Application:-
-Shaping Machine Example:
-•	During the forward stroke, the tool removes material.
-•	During the return stroke, the tool moves back quickly to start the next cut.
- Advantages
-•	Saves time (higher productivity)
-•	Simple and reliable mechanism
-•	Can be driven manually, electrically, or hydraulically
- Disadvantages
-•	Forward stroke speed is limited by mechanism
-•	Some setups can be mechanically complex
+# Quick Return Mechanism – SolidWorks 2024
+
+This repository contains a 3D mechanical design of a Quick Return Mechanism, created using ‘SolidWorks 2024’. The mechanism demonstrates how the return stroke of a tool (such as in a shaper machine) is made faster than the forward (cutting) stroke — increasing manufacturing efficiency.
+
+---
+
+# Software Used
+
+- ‘SolidWorks 2024’ – 3D part and assembly modeling
+- eDrawings (optional) – for viewing models without SolidWorks
+- PDF viewer – for opening the design report
+
+---
+
+# Folder Structure
+
+```bash
+Quick-Return-Mechanism/
+│
+├── Parts/                  # Individual part files (. SLDPRT)
+│   ├── Crank.SLDPRT
+│   ├── Ram.SLDPRT
+│   ├── Slotted_Link.SLDPRT
+│   └── Connecting_Rod.SLDPRT
+│
+├── Assembly/
+│   └── Quick_Return_Assembly.SLDASM
+│
+├── Renderings/
+│   └── mechanism_render.png
+│
+├── Documentation/
+│   └── Design_Report.pdf
+│
+├── README.md
+└── LICENSE (optional)
+Mechanism Overview
+The Quick Return Mechanism is widely used in:
+•	Shaping machines
+•	Slotting machines
+•	Other reciprocating machine tools
+ Working Principle
+•	Uses a crank and slotted lever or Whitworth mechanism
+•	Forward stroke (cutting) is slower for accuracy
+•	Return stroke (non-cutting) is faster to save time
+•	Achieved by varying crank angles for each stroke
+ How to Open
+1.	Open SolidWorks 2024
+2.	Go to File → Open and select Quick_Return_Assembly.SLDASM
+3.	Ensure all .SLDPRT files are in the same directory or referenced correctly
+4.	Optionally, run Motion Study to see mechanism in action
